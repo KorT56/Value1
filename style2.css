@@ -84,6 +84,10 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
+  .value_block, .value_1, .result_1, .value_pr {
+    background-color: #f9f9f9;
+  }
+
   #button_result{
     font-size: 26px;
     border-radius: 12px;
