@@ -1,22 +1,21 @@
 * {
     background-color: rgb(253, 253, 253);
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 20px;
 }
 
 .header{
     display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 2%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 12px;
 }
 
 .pr1  {
-    padding: 10px;  
+    padding: 15px;  
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.486);
+    font-size: 40px;
 }
 
 .block_1, .block_2, .block_3, .block_4, .block_5, .block_6 {
@@ -25,23 +24,28 @@
 
 .imgtx  {
     position: relative;
-    left: 25% 
+    padding-left: 5%;
+    width: 510px;
+    font-size: 30px;
 }
 
 .input_value {
+    font-size: 40px;
     padding: 2px 20px 2px 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #text {
-    margin-top: -20px;
-    position:relative;
-    left: 630px;
+    margin-top: -37px;
+    position: static;
+    padding-left: 650px;
+    font-size: 30px;
 }
 
 .button{
     position:relative;
     margin-top: 2%;
+    margin-left: 12% ;
 }
 
 .buttonsend {
@@ -74,12 +78,12 @@
 #name-tooltip {
     position: absolute;
     top: 20%;
-    left: 32%;
+    left: 2%;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 46px 100px 46px 100px;
     border-radius: 4px;
-    font-size: 120%;
+    font-size: 20px;
     color: #707070;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
