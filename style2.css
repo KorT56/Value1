@@ -39,8 +39,7 @@
     left: 630px;
 }
 
-
-.send{
+.button{
     position:relative;
     margin-top: 2%;
 }
@@ -56,11 +55,20 @@
     justify-content: center;
     margin: 0 auto;
     padding: 10px;  
-    transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.value_block {
+    display: flex;
+}
+
+.result_1 {
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
 .tooltip_hidden {
-    display: none;
+   display: none;
 }
 
 #name-tooltip {
