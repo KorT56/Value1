@@ -1,0 +1,100 @@
+* {
+    background-color: rgb(253, 253, 253);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    overflow: hidden;
+  }
+  
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+}
+
+.pr1  {
+    padding: 10px;  
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.block_1, .block_2, .block_3, .block_4, .block_5, .block_6 {
+    margin-top: 2%;
+}
+
+.tx  {
+    position: relative;
+    left: 5%  
+}
+
+.input_value {
+    padding: 2px 20px 2px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#value {
+    margin-top: -20px;
+    position:relative;
+    left: 60%;
+    right: 10px;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+
+.send{
+    position:relative;
+    margin-top: 2%;
+    margin-left: -19% 
+}
+
+.buttonsend {
+    font-size: 26px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.486);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(2, 2, 2, 0.486);
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;  
+    transition-duration: 0.4s;
+    
+}
+
+.tooltip_hidden {
+    display: none;
+}
+
+#name-tooltip {
+    position: absolute;
+    top: 95px;
+    left: 24%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 46px 100px 46px 100px;
+    border-radius: 4px;
+    font-size: 120%;
+    color: #707070;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #button_result{
+    font-size: 26px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.486);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(2, 2, 2, 0.486);
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;  
+    transition-duration: 0.4s;
+  }
+
+  

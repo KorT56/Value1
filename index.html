@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Затраты/Прибыль</title>
+    <!--<link rel="stylesheet" type="text/css" href="./css/style1.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="./style.css">-->
+    <link rel="stylesheet" type="text/css" href="./style2.css">
+  </head>
+  <body>
+ 
+      <div class="header">
+        <h2 class="pr1">Затраты/Прибыль</h2>
+      </div>
+
+<div class="expenses-profit"">
+    <div class="counter">
+
+    <div class="block_1">
+        <div class="tx">
+        Розничная цена товара:
+        </div>
+        <div class="tx" id="value">
+          <input class="input_value" id="retail_price" type="number" placeholder="Введите число"></input>
+        </div>
+    </div>
+
+    <div class="block_2">
+         <div class="tx">
+         Себестоимость товаров:
+         </div>
+         <div class="tx" id="value">
+          <input class="input_value" id="cost_price" type="number" placeholder="Введите число"></input>
+         </div>
+    </div>
+  
+    <div class="block_3">
+         <div class="tx">
+          % налогооблажения
+         </div>
+         <div class="tx" id="value">
+         <input class="input_value" id="tax" type="number" placeholder="Введите число"></input>
+    </div>
+  
+     <div class="block_4">
+         <div class="tx">
+         Комиссия
+         </div>
+         <div class="tx" id="value">
+         <input class="input_value" id="MP_commission" type="number" placeholder="Введите число"></input>
+         </div>
+     </div>
+
+    <div class="block_5">
+         <div class="tx">
+         Логистика до клиента
+         </div>
+         <div class="tx" id="value">
+         <input class="input_value" id="logistics_customer" type="number" placeholder="Введите число"></input>
+     </div>
+
+     <div class="block_6">
+         <div class="tx">
+         Логистика до склада:
+         </div>
+         <div class="tx" id="value">
+          <input class="input_value" id="logistics_SC" type="number" placeholder="Введите число"></input>
+         </div>
+     </div>
+  </div>  
+</div>
+
+</div>
+
+
+
+<div class="send">
+    <button class="buttonsend" id="result" data-card>результат</button>
+</div>
+
+<div class="form">
+<form class="tooltip_hidden" id="name-tooltip" data-form>
+    <div class ="result_values" id="counterRe">
+        <h3>Промежуточные значения</h3>
+          <p>Всего налога по одному товару:</p>
+         <div id="summa_naloga" ></div>
+           <p>Всего комиссия:</p>
+         <div id="commission"></div>
+           <p>Всего затраты:</p>
+         <div id="expenses"></div>
+           <p>Процент ЧП от себестоимости:</p>
+         <div id="percentage_cost"></div>
+           <p>Процент ЧП от выручки:</p>
+         <div id="percentage_revenue"></div>
+         <p><b>Чистая прибыль:</b></p>
+         <div id="net profit"></div>
+      <button class="value_result"  id="button_result" data-cart_order>закрыть</button>
+      </div>
+    </div>
+    </form>
+</div>
+
+<script src="./script.js"></script>
+<!--<script src="./resultForm.js"></script>-->
+<!--<script src="./script1.js"></script>-->
+
+</body>
