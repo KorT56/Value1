@@ -3,7 +3,7 @@
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 20px;
 }
-  
+
 .header{
     display:flex;
     flex-direction: row;
@@ -15,6 +15,7 @@
 
 .pr1  {
     padding: 10px;  
+    border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.486);
 }
 
@@ -22,9 +23,9 @@
     margin-top: 2%;
 }
 
-.tx  {
+.imgtx  {
     position: relative;
-    left: 5%  
+    left: 25% 
 }
 
 .input_value {
@@ -32,14 +33,12 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#value {
+#text {
     margin-top: -20px;
     position:relative;
-    left: 60%;
-    right: 10px;
-    padding-left: 20px;
-    padding-left: 20px;
+    left: 630px;
 }
+
 
 .send{
     position:relative;
@@ -68,8 +67,8 @@
 
 #name-tooltip {
     position: absolute;
-    top: 95px;
-    left: 24%;
+    top: 20%;
+    left: 32%;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 46px 100px 46px 100px;
